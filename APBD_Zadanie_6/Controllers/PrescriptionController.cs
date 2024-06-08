@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace APBD_Zadanie_6.Controllers;
 
+[ApiController]
+[Route("api/[controller]")]
 public class PrescriptionController : ControllerBase
 {
     private readonly Context _context;
